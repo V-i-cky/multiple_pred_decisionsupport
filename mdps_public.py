@@ -12,11 +12,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/kavitha/Desktop/ml web/diabetes_model(2).sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model(2).sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/kavitha/Desktop/ml web/heart_disease_model(1).sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model(1).sav', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/kavitha/Desktop/ml web/parkinsons_model.sav(1)', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav(1)', 'rb'))
 
 
 
